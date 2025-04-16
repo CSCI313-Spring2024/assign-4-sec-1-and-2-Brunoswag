@@ -1,0 +1,27 @@
+.btn{
+    background-color: #660066;
+    /* outline-color: #FFFFFF; */
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn:focus{
+    background-color: #660066;
+    
+}
+
+.btn:hover{
+    color: #880088;
+    border-color: #880088;
+    border-width: 1.5;
+    /* border-color: rgb(240, 255, 241); */
+}
+
+.table{
+    align-content: center;
+}
+
+.btn-sm{
+    margin-left: 0.5ex;
+    margin-right: 0.5ex;
+}

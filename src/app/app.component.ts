@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ContactListComponent } from './contact-list/contact-list.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  standalone: true,
+  imports: [ContactListComponent],
+  template: '<app-contact-list />'
 })
-export class AppComponent {
-  title = 'assignment-4';
-}
+export class AppComponent {}
